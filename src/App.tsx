@@ -13,6 +13,7 @@ function App() {
       <Features />
       <BrowserCards />
       <FAQ />
+      <div>Heloo Akash</div>
       <Newsletter/>
       <Footer/>
     </>
