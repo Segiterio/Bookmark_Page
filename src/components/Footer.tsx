@@ -20,9 +20,15 @@ const Footer = () => {
             </g>
           </svg>
           <ul className="flex flex-col gap-4 text-white items-center font-rubik uppercase text-sm tracking-wide md:flex-row md:gap-12">
-            <li className="hover:text-Soft-Red cursor-pointer">Services</li>
-            <li className="hover:text-Soft-Red cursor-pointer">About Us</li>
-            <li className="hover:text-Soft-Red cursor-pointer">Contact</li>
+            <li className="hover:text-Soft-Red cursor-pointer">
+              <a href="#services"> Services</a>
+            </li>
+            <li className="hover:text-Soft-Red cursor-pointer">
+              <a href="#faqs"> About Us</a>
+            </li>
+            <li className="hover:text-Soft-Red cursor-pointer">
+              <a href="#contact"> Contact</a>
+            </li>
           </ul>
         </div>
 

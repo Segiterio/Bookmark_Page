@@ -32,7 +32,9 @@ const Faqs = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-center max-w-[540px] leading-relaxed text-Grayish-Blue text-sm font-rubik md:text-lg mx-auto">
-           Find answers to common questions about our repair services, booking process, pricing, and technician support. We're here to make your experience smooth and hassle-free.
+            Find answers to common questions about our repair services, booking
+            process, pricing, and technician support. We're here to make your
+            experience smooth and hassle-free.
           </p>
         </div>
         <ul className="max-w-2xl w-11/12 mx-auto ">
@@ -40,7 +42,10 @@ const Faqs = () => {
             <Faq key={faq.id} ques={faq.ques} ans={faq.ans} />
           ))}
         </ul>
-        <button className="font-rubik text-xs font-medium bg-Soft-Blue p-3 rounded-[6px] text-[hsl(200_100%_98%)] shadow-[0px_4px_10px_0px_rgb(228,229,246)] border-2 border-transparent hover:border-Soft-Blue hover:bg-[hsl(200_100%_98%)] hover:text-Soft-Blue lg:text-sm self-center">
+        <button
+          id={"contact"}
+          className="font-rubik text-xs font-medium bg-Soft-Blue p-3 rounded-[6px] text-[hsl(200_100%_98%)] shadow-[0px_4px_10px_0px_rgb(228,229,246)] border-2 border-transparent hover:border-Soft-Blue hover:bg-[hsl(200_100%_98%)] hover:text-Soft-Blue lg:text-sm self-center"
+        >
           Contact Us
         </button>
       </div>

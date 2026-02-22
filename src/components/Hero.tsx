@@ -14,11 +14,14 @@ function Hero() {
               rely on.
             </p>
             <div className="flex gap-4 text-xs font-medium flex-wrap lg:text-sm justify-center lg:justify-start">
-              <button className=" bg-Soft-Blue p-3 rounded-[6px] text-[hsl(200_100%_98%)] shadow-[0px_4px_10px_0px_rgb(228,229,246)] border-2 border-transparent hover:border-Soft-Blue hover:bg-[hsl(200_100%_98%)] hover:text-Soft-Blue ">
-                Book a Service
-              </button>
               <a
-                href="/#services"
+                href="#contact"
+                className=" bg-Soft-Blue p-3 rounded-[6px] text-[hsl(200_100%_98%)] shadow-[0px_4px_10px_0px_rgb(228,229,246)] border-2 border-transparent hover:border-Soft-Blue hover:bg-[hsl(200_100%_98%)] hover:text-Soft-Blue "
+              >
+                Book a Service
+              </a>
+              <a
+                href="#services"
                 className="bg-[hsl(0_0%_97%)] text-[hsl(231_6%_43%)] p-3 rounded-[6px] shadow-[0px_4px_10px_0px_rgb(228,229,246)] border-2 border-transparent hover:border-[hsl(230_6%_39%)] hover:bg-[hsl(200_100%_98%)] hover:text-[hsl(230_6%_39%)]"
               >
                 View Services

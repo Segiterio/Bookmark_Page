@@ -25,7 +25,10 @@ function Header() {
         >
           About Us
         </a>
-        <a href="/" className=" hover:text-Soft-Red cursor-pointer capitalize ">
+        <a
+          href="#contact"
+          className=" hover:text-Soft-Red cursor-pointer capitalize "
+        >
           Contact
         </a>
         {/* <Link
@@ -105,7 +108,7 @@ function Header() {
                   setShowSideBar(false);
                 }}
               >
-                <a href="/#faqs" className="w-full cursor-pointer">
+                <a href="#faqs" className="w-full cursor-pointer">
                   About Us
                 </a>
               </li>
@@ -115,7 +118,7 @@ function Header() {
                   setShowSideBar(false);
                 }}
               >
-                <a href="/" className="w-full cursor-pointer">
+                <a href="#contact" className="w-full cursor-pointer">
                   Contact
                 </a>
               </li>
