@@ -1,17 +1,7 @@
-import debounce from "debounce";
-import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 
 export default function Login() {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-    getValues,
-    watch,
-  } = useForm({
-    defaultValues: async () => {},
-  });
+  const { register, handleSubmit, getValues, watch } = useForm();
   const onSubmit = (data: any) => console.log(data);
 
   const onBlur = (fieldName: string) => {
